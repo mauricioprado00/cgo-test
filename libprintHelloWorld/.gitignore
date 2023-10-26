@@ -1,2 +1,4 @@
 libprintHelloWorld.so
 printHelloWorld.o
+printHelloWorld.so
+libprintHelloWorld.a
