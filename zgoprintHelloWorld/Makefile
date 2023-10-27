@@ -8,7 +8,7 @@ all: $(BINARY)
 $(BINARY): goprintHelloWorld.go
 	# need to copy because go runs inside docker
 	cp $(LIBPATH)$(LIBSTATIC) .
-	$(GO) build -o $(BINARY) goprintHelloWorld.go
+	$(GO) build -v -o $(BINARY) goprintHelloWorld.go
 
 .PHONY: clean
 
