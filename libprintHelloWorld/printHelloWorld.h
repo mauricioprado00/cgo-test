@@ -3,4 +3,10 @@
 
 void printHelloWorld();
 
+void printHelloYou(char *name);
+
+char *getHelloWorld();
+
+void printHelloWorldXTimes(int times);
+
 #endif
